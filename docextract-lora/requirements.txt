@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+sklearn-crfsuite
+rapidfuzz
+matplotlib
+pytest

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docextract"
+version = "0.1.0"
+description = "Benchmark-first LoRA fine-tuning and verification for structured document extraction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy", "scipy", "scikit-learn", "sklearn-crfsuite", "rapidfuzz", "matplotlib"]
+
+[project.optional-dependencies]
+llm = ["torch", "transformers>=4.44", "peft>=0.12", "accelerate", "bitsandbytes; platform_system=='Linux'"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["docextract*"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["notebooks"]
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E501", "E701", "E702", "E731", "E741", "E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,908 @@
+{
+  "crf": {
+    "test_id_n00": {
+      "raw": {
+        "n": 500,
+        "doc_em": 1.0,
+        "em_vendor": 1.0,
+        "em_invoice_number": 1.0,
+        "em_date": 1.0,
+        "em_currency": 1.0,
+        "em_subtotal": 1.0,
+        "em_tax": 1.0,
+        "em_total": 1.0,
+        "field_em_macro": 1.0,
+        "item_f1_strict": 1.0,
+        "item_f1_loose": 1.0,
+        "anls_vendor": 1.0,
+        "anls_invoice": 1.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 1.0,
+        "doc_em_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 1.0,
+        "em_vendor": 1.0,
+        "em_invoice_number": 1.0,
+        "em_date": 1.0,
+        "em_currency": 1.0,
+        "em_subtotal": 1.0,
+        "em_tax": 1.0,
+        "em_total": 1.0,
+        "field_em_macro": 1.0,
+        "item_f1_strict": 1.0,
+        "item_f1_loose": 1.0,
+        "anls_vendor": 1.0,
+        "anls_invoice": 1.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 1.0,
+        "doc_em_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "latency_s": 0.0023211215120004453,
+      "n": 500
+    },
+    "test_id_n01": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.54,
+        "em_vendor": 0.88,
+        "em_invoice_number": 0.952,
+        "em_date": 0.92,
+        "em_currency": 0.982,
+        "em_subtotal": 0.962,
+        "em_tax": 0.966,
+        "em_total": 0.966,
+        "field_em_macro": 0.9468571428571428,
+        "item_f1_strict": 0.940843621399177,
+        "item_f1_loose": 0.9675925925925926,
+        "anls_vendor": 0.9916445636149197,
+        "anls_invoice": 0.9947126984126984,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.67,
+        "doc_em_ci95": [
+          0.498,
+          0.588
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.702,
+        "em_vendor": 0.88,
+        "em_invoice_number": 0.952,
+        "em_date": 0.92,
+        "em_currency": 0.982,
+        "em_subtotal": 0.992,
+        "em_tax": 0.982,
+        "em_total": 0.982,
+        "field_em_macro": 0.9557142857142857,
+        "item_f1_strict": 0.9876543209876543,
+        "item_f1_loose": 0.9907407407407407,
+        "anls_vendor": 0.9916445636149197,
+        "anls_invoice": 0.9947126984126984,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.864,
+        "doc_em_ci95": [
+          0.666,
+          0.742
+        ]
+      },
+      "latency_s": 0.0021942392999995943,
+      "n": 500
+    },
+    "test_id_n02": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.332,
+        "em_vendor": 0.814,
+        "em_invoice_number": 0.9,
+        "em_date": 0.908,
+        "em_currency": 0.976,
+        "em_subtotal": 0.934,
+        "em_tax": 0.954,
+        "em_total": 0.902,
+        "field_em_macro": 0.9125714285714286,
+        "item_f1_strict": 0.8834080717488789,
+        "item_f1_loose": 0.9431988041853513,
+        "anls_vendor": 0.9851191281370848,
+        "anls_invoice": 0.9871658730158731,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.45,
+        "doc_em_ci95": [
+          0.292,
+          0.374
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.556,
+        "em_vendor": 0.814,
+        "em_invoice_number": 0.9,
+        "em_date": 0.908,
+        "em_currency": 0.976,
+        "em_subtotal": 0.978,
+        "em_tax": 0.97,
+        "em_total": 0.964,
+        "field_em_macro": 0.9299999999999999,
+        "item_f1_strict": 0.9656203288490284,
+        "item_f1_loose": 0.9830592924763328,
+        "anls_vendor": 0.9851191281370848,
+        "anls_invoice": 0.9871658730158731,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.776,
+        "doc_em_ci95": [
+          0.512,
+          0.59805
+        ]
+      },
+      "latency_s": 0.0022961422239991406,
+      "n": 500
+    },
+    "test_id_n05": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.046,
+        "em_vendor": 0.59,
+        "em_invoice_number": 0.76,
+        "em_date": 0.71,
+        "em_currency": 0.934,
+        "em_subtotal": 0.812,
+        "em_tax": 0.892,
+        "em_total": 0.826,
+        "field_em_macro": 0.7891428571428571,
+        "item_f1_strict": 0.7318076626382104,
+        "item_f1_loose": 0.8660323990743122,
+        "anls_vendor": 0.9656359120669492,
+        "anls_invoice": 0.971129365079365,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.146,
+        "doc_em_ci95": [
+          0.028,
+          0.064
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.192,
+        "em_vendor": 0.59,
+        "em_invoice_number": 0.76,
+        "em_date": 0.71,
+        "em_currency": 0.934,
+        "em_subtotal": 0.888,
+        "em_tax": 0.93,
+        "em_total": 0.916,
+        "field_em_macro": 0.8182857142857144,
+        "item_f1_strict": 0.8593468758035485,
+        "item_f1_loose": 0.9164309591154539,
+        "anls_vendor": 0.9656359120669492,
+        "anls_invoice": 0.971129365079365,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.448,
+        "doc_em_ci95": [
+          0.16,
+          0.23
+        ]
+      },
+      "latency_s": 0.0026678421360006154,
+      "n": 500
+    },
+    "test_ood_lang_n02": {
+      "raw": {
+        "n": 300,
+        "doc_em": 0.09,
+        "em_vendor": 0.8033333333333333,
+        "em_invoice_number": 0.86,
+        "em_date": 0.31666666666666665,
+        "em_currency": 0.9833333333333333,
+        "em_subtotal": 0.82,
+        "em_tax": 0.95,
+        "em_total": 0.9266666666666666,
+        "field_em_macro": 0.8085714285714286,
+        "item_f1_strict": 0.8890681726502622,
+        "item_f1_loose": 0.9382815651472368,
+        "anls_vendor": 0.9863328680550042,
+        "anls_invoice": 0.9797142857142856,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.52,
+        "doc_em_ci95": [
+          0.06,
+          0.12666666666666668
+        ]
+      },
+      "repair": {
+        "n": 300,
+        "doc_em": 0.17333333333333334,
+        "em_vendor": 0.8033333333333333,
+        "em_invoice_number": 0.86,
+        "em_date": 0.31666666666666665,
+        "em_currency": 0.9833333333333333,
+        "em_subtotal": 0.8566666666666667,
+        "em_tax": 0.96,
+        "em_total": 0.9566666666666667,
+        "field_em_macro": 0.8195238095238097,
+        "item_f1_strict": 0.9560306575231948,
+        "item_f1_loose": 0.9697458652682532,
+        "anls_vendor": 0.9863328680550042,
+        "anls_invoice": 0.9797142857142856,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.7933333333333333,
+        "doc_em_ci95": [
+          0.13,
+          0.21666666666666667
+        ]
+      },
+      "latency_s": 0.0025581969333329842,
+      "n": 300
+    },
+    "test_ood_layout_n02": {
+      "raw": {
+        "n": 300,
+        "doc_em": 0.0,
+        "em_vendor": 0.79,
+        "em_invoice_number": 0.8166666666666667,
+        "em_date": 0.30666666666666664,
+        "em_currency": 0.0033333333333333335,
+        "em_subtotal": 0.8833333333333333,
+        "em_tax": 0.93,
+        "em_total": 0.0033333333333333335,
+        "field_em_macro": 0.5333333333333333,
+        "item_f1_strict": 0.015676567656765675,
+        "item_f1_loose": 0.19471947194719472,
+        "anls_vendor": 0.9850906010627373,
+        "anls_invoice": 0.9248121693121694,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.0,
+        "doc_em_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "repair": {
+        "n": 300,
+        "doc_em": 0.0,
+        "em_vendor": 0.79,
+        "em_invoice_number": 0.8166666666666667,
+        "em_date": 0.30666666666666664,
+        "em_currency": 0.0033333333333333335,
+        "em_subtotal": 0.8833333333333333,
+        "em_tax": 0.93,
+        "em_total": 0.82,
+        "field_em_macro": 0.65,
+        "item_f1_strict": 0.18811881188118812,
+        "item_f1_loose": 0.1963696369636964,
+        "anls_vendor": 0.9850906010627373,
+        "anls_invoice": 0.9248121693121694,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.0,
+        "doc_em_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "latency_s": 0.0019764880100007075,
+      "n": 300
+    }
+  },
+  "rules-ext": {
+    "test_id_n00": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.628,
+        "em_vendor": 1.0,
+        "em_invoice_number": 1.0,
+        "em_date": 1.0,
+        "em_currency": 1.0,
+        "em_subtotal": 1.0,
+        "em_tax": 1.0,
+        "em_total": 1.0,
+        "field_em_macro": 1.0,
+        "item_f1_strict": 0.9162342475908081,
+        "item_f1_loose": 0.9187052137385716,
+        "anls_vendor": 1.0,
+        "anls_invoice": 1.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.644,
+        "doc_em_ci95": [
+          0.58795,
+          0.668
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.628,
+        "em_vendor": 1.0,
+        "em_invoice_number": 1.0,
+        "em_date": 1.0,
+        "em_currency": 1.0,
+        "em_subtotal": 1.0,
+        "em_tax": 1.0,
+        "em_total": 1.0,
+        "field_em_macro": 1.0,
+        "item_f1_strict": 0.9162342475908081,
+        "item_f1_loose": 0.9187052137385716,
+        "anls_vendor": 1.0,
+        "anls_invoice": 1.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.644,
+        "doc_em_ci95": [
+          0.58795,
+          0.668
+        ]
+      },
+      "latency_s": 0.00033651368399972625,
+      "n": 500
+    },
+    "test_id_n01": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.254,
+        "em_vendor": 0.88,
+        "em_invoice_number": 0.906,
+        "em_date": 0.91,
+        "em_currency": 0.948,
+        "em_subtotal": 0.898,
+        "em_tax": 0.934,
+        "em_total": 0.902,
+        "field_em_macro": 0.9111428571428571,
+        "item_f1_strict": 0.8342585249801745,
+        "item_f1_loose": 0.8617499339148823,
+        "anls_vendor": 0.9916445636149197,
+        "anls_invoice": 0.9468714285714286,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.342,
+        "doc_em_ci95": [
+          0.218,
+          0.292
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.316,
+        "em_vendor": 0.88,
+        "em_invoice_number": 0.906,
+        "em_date": 0.91,
+        "em_currency": 0.948,
+        "em_subtotal": 0.912,
+        "em_tax": 0.954,
+        "em_total": 0.938,
+        "field_em_macro": 0.921142857142857,
+        "item_f1_strict": 0.8480042294475285,
+        "item_f1_loose": 0.8696801480306636,
+        "anls_vendor": 0.9916445636149197,
+        "anls_invoice": 0.9468714285714286,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.426,
+        "doc_em_ci95": [
+          0.276,
+          0.354
+        ]
+      },
+      "latency_s": 0.00031833181400071453,
+      "n": 500
+    },
+    "test_id_n02": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.096,
+        "em_vendor": 0.808,
+        "em_invoice_number": 0.838,
+        "em_date": 0.868,
+        "em_currency": 0.904,
+        "em_subtotal": 0.828,
+        "em_tax": 0.904,
+        "em_total": 0.808,
+        "field_em_macro": 0.8511428571428571,
+        "item_f1_strict": 0.7650834403080873,
+        "item_f1_loose": 0.8267008985879332,
+        "anls_vendor": 0.9791553272321073,
+        "anls_invoice": 0.9037476190476191,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.178,
+        "doc_em_ci95": [
+          0.07,
+          0.122
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.17,
+        "em_vendor": 0.808,
+        "em_invoice_number": 0.838,
+        "em_date": 0.868,
+        "em_currency": 0.904,
+        "em_subtotal": 0.852,
+        "em_tax": 0.932,
+        "em_total": 0.884,
+        "field_em_macro": 0.8694285714285714,
+        "item_f1_strict": 0.7887034659820282,
+        "item_f1_loose": 0.841591784338896,
+        "anls_vendor": 0.9791553272321073,
+        "anls_invoice": 0.9037476190476191,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.28,
+        "doc_em_ci95": [
+          0.136,
+          0.202
+        ]
+      },
+      "latency_s": 0.00034543401200039627,
+      "n": 500
+    },
+    "test_id_n05": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.004,
+        "em_vendor": 0.566,
+        "em_invoice_number": 0.562,
+        "em_date": 0.642,
+        "em_currency": 0.746,
+        "em_subtotal": 0.546,
+        "em_tax": 0.74,
+        "em_total": 0.588,
+        "field_em_macro": 0.6271428571428572,
+        "item_f1_strict": 0.5722635494155153,
+        "item_f1_loose": 0.696068012752391,
+        "anls_vendor": 0.9338785591257729,
+        "anls_invoice": 0.7223960317460317,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.052,
+        "doc_em_ci95": [
+          0.0,
+          0.01
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.014,
+        "em_vendor": 0.566,
+        "em_invoice_number": 0.562,
+        "em_date": 0.642,
+        "em_currency": 0.746,
+        "em_subtotal": 0.556,
+        "em_tax": 0.782,
+        "em_total": 0.674,
+        "field_em_macro": 0.6468571428571429,
+        "item_f1_strict": 0.5945802337938365,
+        "item_f1_loose": 0.7082890541976622,
+        "anls_vendor": 0.9338785591257729,
+        "anls_invoice": 0.7223960317460317,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.104,
+        "doc_em_ci95": [
+          0.006,
+          0.026
+        ]
+      },
+      "latency_s": 0.0003748843540007556,
+      "n": 500
+    },
+    "test_ood_lang_n02": {
+      "raw": {
+        "n": 300,
+        "doc_em": 0.05333333333333334,
+        "em_vendor": 0.8033333333333333,
+        "em_invoice_number": 0.7266666666666667,
+        "em_date": 0.8633333333333333,
+        "em_currency": 0.9066666666666666,
+        "em_subtotal": 0.7666666666666667,
+        "em_tax": 0.8666666666666667,
+        "em_total": 0.8033333333333333,
+        "field_em_macro": 0.8195238095238097,
+        "item_f1_strict": 0.7124463519313304,
+        "item_f1_loose": 0.7622317596566522,
+        "anls_vendor": 0.9863328680550042,
+        "anls_invoice": 0.827968253968254,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.14666666666666667,
+        "doc_em_ci95": [
+          0.03,
+          0.08333333333333333
+        ]
+      },
+      "repair": {
+        "n": 300,
+        "doc_em": 0.09666666666666666,
+        "em_vendor": 0.8033333333333333,
+        "em_invoice_number": 0.7266666666666667,
+        "em_date": 0.8633333333333333,
+        "em_currency": 0.9066666666666666,
+        "em_subtotal": 0.7766666666666666,
+        "em_tax": 0.9166666666666666,
+        "em_total": 0.8733333333333333,
+        "field_em_macro": 0.8380952380952381,
+        "item_f1_strict": 0.7304721030042919,
+        "item_f1_loose": 0.7699570815450644,
+        "anls_vendor": 0.9863328680550042,
+        "anls_invoice": 0.827968253968254,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.22,
+        "doc_em_ci95": [
+          0.06666666666666667,
+          0.13
+        ]
+      },
+      "latency_s": 0.0003744855900004988,
+      "n": 300
+    },
+    "test_ood_layout_n02": {
+      "raw": {
+        "n": 300,
+        "doc_em": 0.13666666666666666,
+        "em_vendor": 0.79,
+        "em_invoice_number": 0.78,
+        "em_date": 0.85,
+        "em_currency": 0.9233333333333333,
+        "em_subtotal": 0.84,
+        "em_tax": 0.85,
+        "em_total": 0.8233333333333334,
+        "field_em_macro": 0.8366666666666667,
+        "item_f1_strict": 0.7926879933527213,
+        "item_f1_loose": 0.8508516825924388,
+        "anls_vendor": 0.9850906010627373,
+        "anls_invoice": 0.9045515873015874,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.23666666666666666,
+        "doc_em_ci95": [
+          0.1,
+          0.1734166666666666
+        ]
+      },
+      "repair": {
+        "n": 300,
+        "doc_em": 0.21666666666666667,
+        "em_vendor": 0.79,
+        "em_invoice_number": 0.78,
+        "em_date": 0.85,
+        "em_currency": 0.9233333333333333,
+        "em_subtotal": 0.8733333333333333,
+        "em_tax": 0.9033333333333333,
+        "em_total": 0.8866666666666667,
+        "field_em_macro": 0.8580952380952381,
+        "item_f1_strict": 0.8167843788948899,
+        "item_f1_loose": 0.863315330286664,
+        "anls_vendor": 0.9850906010627373,
+        "anls_invoice": 0.9045515873015874,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.4066666666666667,
+        "doc_em_ci95": [
+          0.17,
+          0.2633333333333333
+        ]
+      },
+      "latency_s": 0.0003199550566668563,
+      "n": 300
+    }
+  },
+  "rules": {
+    "test_id_n00": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.628,
+        "em_vendor": 1.0,
+        "em_invoice_number": 1.0,
+        "em_date": 1.0,
+        "em_currency": 1.0,
+        "em_subtotal": 1.0,
+        "em_tax": 1.0,
+        "em_total": 1.0,
+        "field_em_macro": 1.0,
+        "item_f1_strict": 0.9162342475908081,
+        "item_f1_loose": 0.9187052137385716,
+        "anls_vendor": 1.0,
+        "anls_invoice": 1.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.644,
+        "doc_em_ci95": [
+          0.58795,
+          0.668
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.628,
+        "em_vendor": 1.0,
+        "em_invoice_number": 1.0,
+        "em_date": 1.0,
+        "em_currency": 1.0,
+        "em_subtotal": 1.0,
+        "em_tax": 1.0,
+        "em_total": 1.0,
+        "field_em_macro": 1.0,
+        "item_f1_strict": 0.9162342475908081,
+        "item_f1_loose": 0.9187052137385716,
+        "anls_vendor": 1.0,
+        "anls_invoice": 1.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.644,
+        "doc_em_ci95": [
+          0.58795,
+          0.668
+        ]
+      },
+      "latency_s": 0.0003233081060004679,
+      "n": 500
+    },
+    "test_id_n01": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.254,
+        "em_vendor": 0.88,
+        "em_invoice_number": 0.906,
+        "em_date": 0.91,
+        "em_currency": 0.948,
+        "em_subtotal": 0.898,
+        "em_tax": 0.934,
+        "em_total": 0.902,
+        "field_em_macro": 0.9111428571428571,
+        "item_f1_strict": 0.8342585249801745,
+        "item_f1_loose": 0.8617499339148823,
+        "anls_vendor": 0.9916445636149197,
+        "anls_invoice": 0.9468714285714286,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.342,
+        "doc_em_ci95": [
+          0.218,
+          0.292
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.316,
+        "em_vendor": 0.88,
+        "em_invoice_number": 0.906,
+        "em_date": 0.91,
+        "em_currency": 0.948,
+        "em_subtotal": 0.912,
+        "em_tax": 0.954,
+        "em_total": 0.938,
+        "field_em_macro": 0.921142857142857,
+        "item_f1_strict": 0.8480042294475285,
+        "item_f1_loose": 0.8696801480306636,
+        "anls_vendor": 0.9916445636149197,
+        "anls_invoice": 0.9468714285714286,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.426,
+        "doc_em_ci95": [
+          0.276,
+          0.354
+        ]
+      },
+      "latency_s": 0.00030608315400030504,
+      "n": 500
+    },
+    "test_id_n02": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.096,
+        "em_vendor": 0.808,
+        "em_invoice_number": 0.838,
+        "em_date": 0.868,
+        "em_currency": 0.904,
+        "em_subtotal": 0.828,
+        "em_tax": 0.904,
+        "em_total": 0.808,
+        "field_em_macro": 0.8511428571428571,
+        "item_f1_strict": 0.7650834403080873,
+        "item_f1_loose": 0.8267008985879332,
+        "anls_vendor": 0.9791553272321073,
+        "anls_invoice": 0.9037476190476191,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.178,
+        "doc_em_ci95": [
+          0.07,
+          0.122
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.17,
+        "em_vendor": 0.808,
+        "em_invoice_number": 0.838,
+        "em_date": 0.868,
+        "em_currency": 0.904,
+        "em_subtotal": 0.852,
+        "em_tax": 0.932,
+        "em_total": 0.884,
+        "field_em_macro": 0.8694285714285714,
+        "item_f1_strict": 0.7887034659820282,
+        "item_f1_loose": 0.841591784338896,
+        "anls_vendor": 0.9791553272321073,
+        "anls_invoice": 0.9037476190476191,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.28,
+        "doc_em_ci95": [
+          0.136,
+          0.202
+        ]
+      },
+      "latency_s": 0.00031773334800027443,
+      "n": 500
+    },
+    "test_id_n05": {
+      "raw": {
+        "n": 500,
+        "doc_em": 0.004,
+        "em_vendor": 0.566,
+        "em_invoice_number": 0.562,
+        "em_date": 0.642,
+        "em_currency": 0.746,
+        "em_subtotal": 0.544,
+        "em_tax": 0.74,
+        "em_total": 0.588,
+        "field_em_macro": 0.6268571428571429,
+        "item_f1_strict": 0.5722635494155153,
+        "item_f1_loose": 0.696068012752391,
+        "anls_vendor": 0.9338785591257729,
+        "anls_invoice": 0.7223960317460317,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.052,
+        "doc_em_ci95": [
+          0.0,
+          0.01
+        ]
+      },
+      "repair": {
+        "n": 500,
+        "doc_em": 0.014,
+        "em_vendor": 0.566,
+        "em_invoice_number": 0.562,
+        "em_date": 0.642,
+        "em_currency": 0.746,
+        "em_subtotal": 0.554,
+        "em_tax": 0.782,
+        "em_total": 0.672,
+        "field_em_macro": 0.6462857142857142,
+        "item_f1_strict": 0.5940488841657809,
+        "item_f1_loose": 0.7077577045696067,
+        "anls_vendor": 0.9338785591257729,
+        "anls_invoice": 0.7223960317460317,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.104,
+        "doc_em_ci95": [
+          0.006,
+          0.026
+        ]
+      },
+      "latency_s": 0.0003547901899991075,
+      "n": 500
+    },
+    "test_ood_lang_n02": {
+      "raw": {
+        "n": 300,
+        "doc_em": 0.0,
+        "em_vendor": 0.8033333333333333,
+        "em_invoice_number": 0.0,
+        "em_date": 0.8633333333333333,
+        "em_currency": 0.9066666666666666,
+        "em_subtotal": 0.38,
+        "em_tax": 0.0,
+        "em_total": 0.8033333333333333,
+        "field_em_macro": 0.5366666666666666,
+        "item_f1_strict": 0.7078891257995735,
+        "item_f1_loose": 0.7573560767590618,
+        "anls_vendor": 0.9863328680550042,
+        "anls_invoice": 0.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.2633333333333333,
+        "doc_em_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "repair": {
+        "n": 300,
+        "doc_em": 0.0,
+        "em_vendor": 0.8033333333333333,
+        "em_invoice_number": 0.0,
+        "em_date": 0.8633333333333333,
+        "em_currency": 0.9066666666666666,
+        "em_subtotal": 0.38,
+        "em_tax": 0.31333333333333335,
+        "em_total": 0.8033333333333333,
+        "field_em_macro": 0.5814285714285715,
+        "item_f1_strict": 0.7181236673773987,
+        "item_f1_loose": 0.7616204690831556,
+        "anls_vendor": 0.9863328680550042,
+        "anls_invoice": 0.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.29333333333333333,
+        "doc_em_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "latency_s": 0.0003577717733333922,
+      "n": 300
+    },
+    "test_ood_layout_n02": {
+      "raw": {
+        "n": 300,
+        "doc_em": 0.0,
+        "em_vendor": 0.79,
+        "em_invoice_number": 0.0,
+        "em_date": 0.85,
+        "em_currency": 0.9233333333333333,
+        "em_subtotal": 0.0,
+        "em_tax": 0.85,
+        "em_total": 0.8233333333333334,
+        "field_em_macro": 0.6052380952380954,
+        "item_f1_strict": 0.0,
+        "item_f1_loose": 0.09139307897071872,
+        "anls_vendor": 0.9850906010627373,
+        "anls_invoice": 0.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.12333333333333334,
+        "doc_em_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "repair": {
+        "n": 300,
+        "doc_em": 0.0,
+        "em_vendor": 0.79,
+        "em_invoice_number": 0.0,
+        "em_date": 0.85,
+        "em_currency": 0.9233333333333333,
+        "em_subtotal": 0.0,
+        "em_tax": 0.85,
+        "em_total": 0.8233333333333334,
+        "field_em_macro": 0.6052380952380954,
+        "item_f1_strict": 0.0,
+        "item_f1_loose": 0.09139307897071872,
+        "anls_vendor": 0.9850906010627373,
+        "anls_invoice": 0.0,
+        "hallucination_rate": 0.0,
+        "json_valid": 1.0,
+        "arith_consistent": 0.12333333333333334,
+        "doc_em_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "latency_s": 0.0003009327000004684,
+      "n": 300
+    }
+  }
+}

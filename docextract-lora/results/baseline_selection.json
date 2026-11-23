@@ -1,0 +1,68 @@
+{
+  "rules_val": {
+    "n": 500,
+    "doc_em": 0.238,
+    "em_vendor": 0.808,
+    "em_invoice_number": 0.856,
+    "em_date": 0.826,
+    "em_currency": 0.942,
+    "em_subtotal": 0.816,
+    "em_tax": 0.896,
+    "em_total": 0.842,
+    "field_em_macro": 0.8551428571428571,
+    "item_f1_strict": 0.7665941240478782,
+    "item_f1_loose": 0.8248095756256801,
+    "anls_vendor": 0.972997744240997,
+    "anls_invoice": 0.9105301587301587,
+    "hallucination_rate": 0.0,
+    "json_valid": 1.0,
+    "arith_consistent": 0.304,
+    "doc_em_ci95": [
+      0.2,
+      0.27404999999999996
+    ]
+  },
+  "crf_grid": [
+    {
+      "c1": 0.01,
+      "c2": 0.01,
+      "fit_s": 32.5,
+      "val_field_em": 0.9162857142857144,
+      "val_item_f1": 0.8983501862692922,
+      "val_doc_em": 0.478
+    },
+    {
+      "c1": 0.05,
+      "c2": 0.05,
+      "fit_s": 32.4,
+      "val_field_em": 0.9160000000000001,
+      "val_item_f1": 0.8978179882916445,
+      "val_doc_em": 0.478
+    },
+    {
+      "c1": 0.2,
+      "c2": 0.2,
+      "fit_s": 32.7,
+      "val_field_em": 0.9157142857142857,
+      "val_item_f1": 0.8978179882916445,
+      "val_doc_em": 0.478
+    },
+    {
+      "c1": 1.0,
+      "c2": 0.1,
+      "fit_s": 30.3,
+      "val_field_em": 0.9157142857142857,
+      "val_item_f1": 0.8978179882916445,
+      "val_doc_em": 0.478
+    }
+  ],
+  "crf_selected": {
+    "c1": 0.01,
+    "c2": 0.01
+  },
+  "crf_conf_variant": "conf_mean",
+  "crf_val_aurc": {
+    "conf_min": 0.12608431639472095,
+    "conf_mean": 0.12260480231419489
+  }
+}
